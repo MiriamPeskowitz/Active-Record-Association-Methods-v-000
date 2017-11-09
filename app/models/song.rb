@@ -12,7 +12,7 @@ class Song < ActiveRecord::Base
     # self.artist = drake
       # find the object, assign the object, by finding it 
      self.artist = Artist.find_or_create_by(name: "Drake")
-     
+
   end
   #
 
